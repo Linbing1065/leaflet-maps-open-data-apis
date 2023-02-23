@@ -12,7 +12,7 @@ If you plan to query Socrata heavily, it is recommended you sign up for an API t
 Assuming you have your `map` initialized and layers control created, load data from a JSON endpoint in Socrata and add it to the map, using custom icons for markers.
 
 ```javascript
-    $.getJSON("https://data.americorps.gov/resource/yie5-ur4v.json?stabbr=ND", function(data) {
+    $.getJSON("https://github.com/Linbing1065/leaflet-maps-open-data-apis/blob/main/guangdong.geojson?stabbr=ND", function(data) {
 
       // Array of markers
       var markers = [];
